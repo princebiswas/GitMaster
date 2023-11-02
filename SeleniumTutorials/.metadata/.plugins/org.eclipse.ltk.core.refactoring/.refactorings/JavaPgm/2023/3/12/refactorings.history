@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;JavaPgm&apos;&#x0D;&#x0A;- Original project: &apos;JavaPgm&apos;&#x0D;&#x0A;- Original element: &apos;MORAssignment.java&apos;" description="Delete element" element1="/src&lt;{MORAssignment.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1679273338359" subPackages="false" version="1.0"/>
+</session>

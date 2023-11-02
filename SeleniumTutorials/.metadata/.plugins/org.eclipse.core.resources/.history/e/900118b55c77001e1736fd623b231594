@@ -1,0 +1,51 @@
+package InterfaceConcept;
+
+class ABC
+{
+	class BCD
+	{
+		public void Test1()
+		{
+			System.out.println("Calling  Test1 in BCD class");
+		}
+	}
+}
+
+class EFG
+{
+	interface FGH
+	{
+		public void Test2();
+	}
+}
+
+interface GHI
+{
+	class HIJ
+	{
+		public void Test4()
+		{
+			System.out.println("Calling Test 4");
+		}
+	}
+}
+
+interface IJK 
+{
+	interface JKL
+	{
+		public void Test5();
+	}
+}
+
+public class NestedConcept {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+

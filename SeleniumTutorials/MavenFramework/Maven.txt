@@ -1,0 +1,8 @@
+All code we need to push inside into the repository - git Repo
+
+
+Jenkins - Git Repo
+
+
+jenkins - >Pom.xml- TestNg.xml- Scripting - Main Functionality - Page object Model
+

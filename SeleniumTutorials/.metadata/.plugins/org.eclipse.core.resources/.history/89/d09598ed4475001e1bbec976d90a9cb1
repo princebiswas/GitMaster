@@ -1,0 +1,10 @@
+package InterfaceConcept;
+
+public class NestedConcept {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

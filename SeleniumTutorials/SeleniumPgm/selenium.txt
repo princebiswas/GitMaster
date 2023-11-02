@@ -1,0 +1,55 @@
+
+id
+name
+
+xpath
+css
+linktext
+classname
+
+
+purple color - Tag Name
+Red Color - Attribute
+Blue Color - Value
+Black Color - Text
+
+
+1- //tagname[@attribute='value']
+
+//textarea[@title='Search']
+
+
+//a[@aria-label='Gmail (opens a new tab)']
+
+2- //tagname[text()='Text Value']
+
+//a[text()='Gmail']
+
+
+3 - //a[text()='Today's Deals']
+
+
+contains
+
+//tagname[contains(text(),'search keyword')]
+
+//a[contains(text(),'Deals')]
+
+
+https://www.flipkart.com/
+
+https://www.ebay.com/
+
+
+
+4- (//a[text()='Customer Service'])[1] -- location wise xpath
+
+
+Home work- 04/16/2023
+https://demo.guru99.com/test/delete_customer.php
+and
+https://demo.guru99.com/test/drag_drop.html
+
+
+
+

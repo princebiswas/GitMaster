@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;MavenFramework/src/test/java/com.test&apos;&#x0D;&#x0A;- Original project: &apos;TestNgPgm&apos;&#x0D;&#x0A;- Destination element: &apos;MavenFramework/src/test/java/com.test&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.test.DragDrop.java&#x0D;&#x0A;     com.test.MultiTest.java" description="Copy compilation units" destination="=MavenFramework/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.test" element1="/src&lt;com.test{DragDrop.java" element2="/src&lt;com.test{MultiTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1684704801595" units="2" version="1.0"/>
+</session>

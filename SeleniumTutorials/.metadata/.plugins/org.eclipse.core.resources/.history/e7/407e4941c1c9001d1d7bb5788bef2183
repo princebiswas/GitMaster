@@ -1,0 +1,23 @@
+class Cons
+{
+	
+	Cons()
+	{
+		System.out.println("Constructor");
+	}
+	public void getDetails()
+	{
+		System.out.println("calling getDeatisl ");
+	}
+}
+public class Constructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Cons c = new Cons();
+		c.getDetails();
+
+	}
+
+}

@@ -1,0 +1,76 @@
+
+C:\Users\princ\AppData\Local\Programs\Python\Python311\Scripts> ------ pip Path
+C:\Users\princ\AppData\Local\Programs\Python\Python311 ---- Python Path
+
+
+
+
+
+Selenium Python Unit testing
+Git
+Docker /jenkins
+POM
+
+Api
+
+400 usd - 200+200
+
+
+Inheritance - Auaring the properties from the other class - that is called a Inheritance
+and we can achieve with the help of classname(parentclassName)
+
+
+what is Multi level inheritance
+
+step by step inheritance
+
+what is multiple inheritance
+
+if one class want to inherit more than one class at a time
+
+
+can we achieve multiple inheritance in python
+
+yes it possible at class level
+
+what is the difference between multiple and multi level
+
+what is single inheritance - and inheritance both is same
+
+what is Many to one Inheritance
+
+what is One to Many Inheritance - Multiple Inheritance - both is same -
+
+IS-A relation - Multi level inheritance/Inheritance
+
+HAS-A relation - Multiple Inheritance
+
+Method Over riding - We have to apply the same method but in different class and we can achieve with the
+help of inheritance and implementation should be different
+
+Method Overloading - that will discuss later
+
+Constructor - Constructor Name and class Name should be same - that mandatory but in Python
+
+we will call Constructor with the help "__init__"
+
+if user is not declaring any constructor - compiler will create default constructor
+
+if user is creating any constructor - compiler will not create default constructor
+
+in Python we cant create multiple constructor - because no scope of Constructor overload in python
+
+Constructor doesnt contain any return type
+
+
+Polymorphism - Same object behaving different different instance through out the execution of the
+pgm that is called a polymorphism
+
+Run Time polymorphims - Method Over ridning
+
+Compile Time Polymorphism  --- Method Over loading /Function over loading -
+
+
+
+
+

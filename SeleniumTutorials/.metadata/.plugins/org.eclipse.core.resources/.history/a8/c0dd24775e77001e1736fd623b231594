@@ -1,0 +1,19 @@
+package StaticConcept;
+
+
+
+public class StaticVariableMethod {
+	
+	String Color = "Blue";
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StaticVariableMethod s = new StaticVariableMethod();
+		
+		System.out.println(s.Color);
+		
+
+	}
+
+}

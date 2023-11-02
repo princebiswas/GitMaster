@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DragDrop.java&apos; to &apos;TestNgPgm/src/com.test&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumPgm&apos;&#x0D;&#x0A;- Destination element: &apos;TestNgPgm/src/com.test&apos;&#x0D;&#x0A;- Original element: &apos;DragDrop.java&apos;" description="Copy compilation unit" destination="=TestNgPgm/src&lt;com.test" element1="/src&lt;{DragDrop.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1684272737917" units="1" version="1.0"/>
+</session>

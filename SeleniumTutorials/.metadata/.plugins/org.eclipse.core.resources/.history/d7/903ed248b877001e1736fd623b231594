@@ -1,0 +1,43 @@
+package StaticConcept;
+
+class Shape
+{
+	static String shape= "Tringle";
+	
+	public static void getShape()
+	{
+		System.out.println("Circle");
+	}
+}
+
+
+
+public class StaticVariableMethod {
+	
+	static String Color = "Blue";// static variable
+	
+	public static void getColor()
+	{
+		System.out.println("Red");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//StaticVariableMethod s = new StaticVariableMethod();
+		
+		System.out.println(Color);
+		
+		//Shape s = new Shape();
+		//System.out.println(s.shape);
+		
+		System.out.println(Shape.shape);
+		
+		getColor();
+		
+		Shape.getShape();
+		
+
+	}
+
+}

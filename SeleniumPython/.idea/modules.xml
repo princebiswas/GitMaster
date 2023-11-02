@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../SeleniumPgm/.idea/SeleniumPgm.iml" filepath="$PROJECT_DIR$/../SeleniumPgm/.idea/SeleniumPgm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SeleniumPython.iml" filepath="$PROJECT_DIR$/.idea/SeleniumPython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GitPython/PythonPro/pytestPgm/.idea/pytestPgm.iml" filepath="$PROJECT_DIR$/../GitPython/PythonPro/pytestPgm/.idea/pytestPgm.iml" />
+    </modules>
+  </component>
+</project>
