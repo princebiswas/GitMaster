@@ -1,6 +1,7 @@
 package Smoke;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -16,7 +17,7 @@ public class SetUp {
 	WebDriver  driver;
 	
 	@BeforeClass
-	public void Initalization() throws IOException
+	public void Initalization() throws IOException 
 	{
 FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\properties\\config.properties");
 		

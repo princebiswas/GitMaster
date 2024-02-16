@@ -1,0 +1,19 @@
+class Image
+{
+	public static void Shape()
+	{
+		System.out.println("Tringle");
+	}
+}
+public class StaticNonStatic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Image i = new Image();
+		//i.Shape();
+		Image.Shape();
+
+	}
+
+}
