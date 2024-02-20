@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-16T12:45:10 EST" name="Default suite" finished-at="2024-02-16T12:45:12 EST" duration-ms="1982">
+  <suite started-at="2024-02-16T16:17:24 EST" name="Default suite" finished-at="2024-02-16T16:17:26 EST" duration-ms="2218">
     <groups>
     </groups>
-    <test started-at="2024-02-16T12:45:10 EST" name="Default test" finished-at="2024-02-16T12:45:12 EST" duration-ms="1982">
+    <test started-at="2024-02-16T16:17:24 EST" name="Default test" finished-at="2024-02-16T16:17:26 EST" duration-ms="2218">
       <class name="com.test.PetApi">
-        <test-method is-config="true" signature="Initalization()[pri:0, instance:com.test.PetApi@27462a88]" started-at="2024-02-16T12:45:10 EST" name="Initalization" finished-at="2024-02-16T12:45:11 EST" duration-ms="297" status="PASS">
+        <test-method is-config="true" signature="Initalization()[pri:0, instance:com.test.PetApi@27462a88]" started-at="2024-02-16T16:17:24 EST" name="Initalization" finished-at="2024-02-16T16:17:24 EST" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initalization -->
-        <test-method signature="PostData()[pri:0, instance:com.test.PetApi@27462a88]" started-at="2024-02-16T12:45:11 EST" name="PostData" finished-at="2024-02-16T12:45:12 EST" duration-ms="1537" status="PASS">
+        <test-method signature="PostData()[pri:0, instance:com.test.PetApi@27462a88]" started-at="2024-02-16T16:17:24 EST" name="PostData" finished-at="2024-02-16T16:17:26 EST" duration-ms="1725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostData -->
-        <test-method signature="getData()[pri:0, instance:com.test.PetApi@27462a88]" started-at="2024-02-16T12:45:12 EST" name="getData" finished-at="2024-02-16T12:45:12 EST" duration-ms="114" status="PASS">
+        <test-method signature="getData()[pri:0, instance:com.test.PetApi@27462a88]" started-at="2024-02-16T16:17:26 EST" name="getData" finished-at="2024-02-16T16:17:26 EST" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method is-config="true" signature="Initalization()[pri:0, instance:com.test.PetApi@27462a88]" started-at="2024-02-16T12:45:12 EST" name="Initalization" finished-at="2024-02-16T12:45:12 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="Initalization()[pri:0, instance:com.test.PetApi@27462a88]" started-at="2024-02-16T16:17:26 EST" name="Initalization" finished-at="2024-02-16T16:17:26 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initalization -->

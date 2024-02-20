@@ -62,7 +62,7 @@ public class PetApi {
         
         JsonPath js = new JsonPath(resdata);
         
-       String PetName =  js.get("category.name");
+       String PetName =  js.get("category.name");  // to see the name, we need to fetch it with Json path.
        
        System.out.println(PetName);
 

@@ -75,6 +75,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\princ\OneDrive\Desktop\GitMaster\GitMaster\IntelijBDDFramework\RestAssured"/>
 			<item value="C:\Users\princ\OneDrive\Desktop\IntelijBDDFramework\RestAssured"/>
 			<item value="C:\Users\princ\OneDrive\Desktop\GitMaster\MavenProject\MavenFramework"/>
 		</list>
