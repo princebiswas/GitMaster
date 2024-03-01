@@ -1,0 +1,30 @@
+
+https://www.expedia.com  -- base uri
+
+
+/Flights-Search -- resources
+
+
+?
+flight-type= -- parameter
+
+&
+mode=search
+&
+trip=roundtrip
+&leg1=from:New%20York,%20NY,%20United%20States%20of%20America%20(LGA-LaGuardia),to:Los%20Angeles,%20CA,%20United%20States%20of%20America%20(LAX-Los%20Angeles%20Intl.),departure:12/18/2023TANYT
+&leg2=from:Los%20Angeles,%20CA,%20United%20States%20of%20America%20(LAX-Los%20Angeles%20Intl.),to:New%20York,%20NY,%20United%20States%20of%20America%20(LGA-LaGuardia),departure:12/19/2023TANYT&options=cabinclass:economy&fromDate=12/18/2023&toDate=12/19/2023&d1=2023-12-18&d2=2023-12-19&passengers=adults:1,infantinlap:N
+
+
+
+In Api we have multiple methods
+
+
+GET
+POST
+PUT
+Delete
+
+given - Headers,Parametrs, Authenticaltion, Body
+when - what operationor method we have to use (get/post/put/delete) along with resources
+then - Assertion and check the status code validity
