@@ -3,16 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.jira.EndToEndScript">
+      <class name="com.test.PetApi">
         <methods>
-          <include name="loginWithUNPass"/>
-          <include name="getIssue"/>
-          <include name="DeleteComment"/>
+          <include name="PostUSerCreation"/>
+          <include name="getData"/>
           <include name="Initalization"/>
-          <include name="getComment"/>
-          <include name="PostComment"/>
+          <include name="PostData"/>
         </methods>
-      </class> <!-- com.jira.EndToEndScript -->
+      </class> <!-- com.test.PetApi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,18 @@
+{
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "EleBabay"
+  },
+  "name": "EleBaby",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "Pegion"
+    }
+  ],
+  "status": "sold"
+}

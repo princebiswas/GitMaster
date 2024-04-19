@@ -2,11 +2,14 @@ package com.jira;
 
 import static io.restassured.RestAssured.given;
 
+import java.io.IOException;
+
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import Payload.PayloadServices;
 import Resources.ResourcesServices;
+import Utility.Helper;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -18,6 +21,8 @@ public class EndToEndScript {
 	String  AuthValue;
 	String Id;
 	
+	String LoginJsonPath = System.getProperty("user.dir")+"\\PayloadFile\\Login.json";
+	
 	@BeforeMethod
 	public void Initalization()
 	{
@@ -25,10 +30,10 @@ public class EndToEndScript {
 	}
 	
 	@Test (priority=1)
-	public void loginWithUNPass()
+	public void loginWithUNPass() throws IOException
 	{
 				
-		Response res = given().contentType(ContentType.JSON).body(PayloadServices.LoginPayload())
+		Response res = given().log().all().contentType(ContentType.JSON).body(Helper.ReadStaticJson(LoginJsonPath))
                 .when().post(ResourcesServices.LoginResources())
                 .then().assertThat().statusCode(200).extract().response();
 
