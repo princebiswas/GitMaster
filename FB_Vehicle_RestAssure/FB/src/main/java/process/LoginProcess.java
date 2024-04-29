@@ -1,6 +1,5 @@
 package process;
 
-import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 import org.openqa.selenium.WebDriver;
 import pageobject.LoginPage;
 import utility.Helper;

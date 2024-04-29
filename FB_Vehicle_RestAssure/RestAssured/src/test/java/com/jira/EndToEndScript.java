@@ -23,7 +23,7 @@ public class EndToEndScript {
 	
 	String LoginJsonPath = System.getProperty("user.dir")+"\\PayloadFile\\Login.json";
 	
-	@BeforeMethod
+//	@BeforeMethod
 	public void Initalization()
 	{
 		RestAssured.baseURI="http://localhost:8080";

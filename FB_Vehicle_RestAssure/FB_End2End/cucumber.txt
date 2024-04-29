@@ -1,0 +1,20 @@
+gergin language
+
+given
+when then
+and
+
+
+Feature Login Functinality
+
+Scenario Login with Correct username and pass
+
+Given
+When
+Then
+ANDS
+
+Scenario  Login With incorrect username and correct password
+
+
+

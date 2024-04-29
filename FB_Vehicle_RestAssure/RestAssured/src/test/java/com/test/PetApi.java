@@ -22,7 +22,7 @@ public class PetApi {
 	String FN ,LN,UN,Email;
 	
 	String PetDataPath = System.getProperty("user.dir")+"\\PayloadFile\\PetData.json";
-	RequestSpecification  req = new RequestSpecBuilder()
+	RequestSpecification  req = new RequestSpecBuilder().setBaseUri("https://petstore.swagger.io")
 			.setContentType(ContentType.JSON).build();
 
 
@@ -33,7 +33,7 @@ public class PetApi {
     	 LN = Helper.randomString(5);
     	 UN = FN+LN;
     	 Email= UN+"@mailinator.com";
-        RestAssured.baseURI="https://petstore.swagger.io";
+       // RestAssured.baseURI="https://petstore.swagger.io";
     }
 
     @Test
@@ -82,16 +82,16 @@ public class PetApi {
         
         JsonPath js = new JsonPath(resdata);
         
-       String PetName =  js.get("category.name");  // to see the name, we need to fetch it with Json path.
+        String PetName =  js.get("category.name");  // to see the name, we need to fetch it with Json path.
        
-       System.out.println(PetName);
+        System.out.println(PetName);
 
     }
     
     @Test
     public void PostUSerCreation() 
     {
-//    
+    
 
         Response res = given().log().all().spec(req).body(UserCreationPayload.UserCreation(UN,FN,LN ,Email ))
                 .when().post("/v2/user")
